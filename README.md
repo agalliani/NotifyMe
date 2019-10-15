@@ -20,27 +20,27 @@ La merce è suddivisa tra gli scaffali per famiglie di prodotto, che a loro volt
 in reparti.
 
 I reparti sono 14:
-01 Giardino
-02 Falegnameria
-03 
-04 
-05 Cucine
-06 Pavimenti e piastrelle
-07 Sanitari
-08 Idraulica
-09
-10 
-11 
-12 Decorazione
-13
-14 Sistemazione
+- 01 Giardino
+- 02 Falegnameria
+- 03 
+- 04 
+- 05 Cucine
+- 06 Pavimenti e piastrelle
+- 07 Sanitari
+- 08 Idraulica
+- 09
+- 10 
+- 11 
+- 12 Decorazione
+- 13
+- 14 Sistemazione
 
 Ogni cv appartiene ad uno o più reparti.
-Ogni cv gestisce la merce del suo reparto di appartenenza.
+Ogni cv gestisce la merce del reparto di appartenenza.
 Il negozio possiede un programma erp (enerprise resource planning) custom denominato Pixys,
 dal quale ogni cv può gestire la merce.
 
-Ogni prodotto disponibile alla vendita è caratterizzato da un nome, un codice "referenza" e un codice "ean", prezzo.
+Ogni prodotto disponibile alla vendita è caratterizzato da un nome, un codice "referenza", un codice "ean" e prezzo.
 La referenza e l'ean permettono di identificare univocamente il prodotto.
 
 
@@ -51,6 +51,10 @@ EM: Emporté Merchandise. Merce ubicata nell'area logistica.
 
 La merce EM e CS è gestita dagli operatori.
 La merce RSS è gestita dai cv.
+
+Il negozio permette l'ingresso di clienti nell'area vendita.
+Il cliente può prelevare merce dagli scaffali di ogni reparto per poi dirigersi alle casse
+ed effettuare il pagamento.
 
 Un cliente può rivolgersi al cv per l'acquisto di merce disponibile solo su ordinazione.
 Questo tipo di merce viene registrata in Pyxis come CS.
@@ -71,12 +75,20 @@ Ogni OC contiene le seguenti informazioni:
 
 [screen schermata OC]
 
+Un OC può contenere sia prodotti di tipo CS, EM sia RSS.
+
+Gli OC sono salvati in Pixys e sono visibili sia dai cv che dagli operatori.
+Una volta che l'OC è convalidato, quindi che è stato confermato dal cliente. 
+Gli operatori si occupano di gestire la merce di ogni OC garantendo la data di consegna indicata nell'OC
+ricevendo la merce nell'area logistica e ubicandola nelle apposite zone di stoccaggio.
+
+La merce RSS, che è gestita dai cv, deve essere portata fisicamente nell'area logistica dai cv entro e non oltre la data
+di consegna indicata nell'OC
 
 
-Il negozio permette l'ingresso di clienti nell'area vendita.
-Il cliente può prelevare merce dagli scaffali di ogni reparto per poi dirigersi alle casse
-ed effettuare il pagamento.
-Il cliente può r
+
+
+
 
 # 2 DOCUMENTO DI DEFINIZIONE DEI REQUISITI
  
