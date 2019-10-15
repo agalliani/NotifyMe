@@ -45,9 +45,9 @@ La referenza e l'ean permettono di identificare univocamente il prodotto.
 
 
 La merce viene suddivisa in tre tipologie:
-RSS: . Merce ubicata nell'area vendita.
-CS: Command Special. Merce disponibile su ordinazione.
-EM: Emporté Merchandise. Merce ubicata nell'area logistica.
+* RSS: . Merce ubicata nell'area vendita.
+* CS: Command Special. Merce disponibile su ordinazione.
+* EM: Emporté Merchandise. Merce ubicata nell'area logistica.
 
 La merce EM e CS è gestita dagli operatori.
 La merce RSS è gestita dai cv.
