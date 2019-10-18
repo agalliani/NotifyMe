@@ -41,7 +41,8 @@ Il negozio possiede un programma erp (enerprise resource planning) custom denomi
 dal quale ogni cv può gestire la merce.
 
 Ogni prodotto disponibile alla vendita è caratterizzato da un nome, un codice "referenza", un codice "ean" e prezzo.
-E' sufficiente avere o la referenza e l'ean per poter di identificare univocamente un prodotto.
+
+E' sufficiente avere o la referenza o l'ean per poter di identificare univocamente un prodotto.
 
 
 La merce viene suddivisa in tre tipologie:
