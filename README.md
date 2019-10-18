@@ -20,7 +20,7 @@ La merce è suddivisa tra gli scaffali per famiglie di prodotto, che a loro volt
 in reparti.
 
 I reparti sono 14:
-- 01 Giardino
+- 01 Edilizia
 - 02 Falegnameria
 - 03 
 - 04 
@@ -28,7 +28,7 @@ I reparti sono 14:
 - 06 Pavimenti e piastrelle
 - 07 Sanitari
 - 08 Idraulica
-- 09
+- 09 Giardino
 - 10 
 - 11 
 - 12 Decorazione
