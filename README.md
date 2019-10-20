@@ -102,6 +102,10 @@ Sul pannello di controllo dell'operatore è presente una schermata con le notifi
 Non deve essere possibile rimuovere la notifica dal cv. (Sarebbe bello che dopo il tentativo di rimuovere una notifica compaia un toast che dica "non fare il furbo, prepara la merce" o qualcosa di simile).
 Il pannello di controllo deve essere disponibile anche da smartphone, solo per gli operatori, in versione ridotta: ovvero deve solo mostrare le notifiche pendenti e i tre bottoni per annullare, confermare o reinviare la notifica.
 
+news: possibilità di mandare delle mail anzichè solo notifiche a smartphone. Quindi in ordine di priorità mail poi noti9fica. L'invio deve essere opzionale e decidibile da pannello di controllo.
+
+Da verificare se un file jar eseguibile (quindi senza installazione) si può usare, perchè ci possono essere problemi di sicurezza dal reparto IT oppure è meglio un interfaccia web?
+
 
 # 3 ANALISI DEL CONTESTO
 # 3.1 Situazione attuale
