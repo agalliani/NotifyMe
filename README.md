@@ -19,22 +19,6 @@ L'area vendita è costituita da scaffali organizzati in corsie sui quali è pres
 La merce è suddivisa tra gli scaffali per famiglie di prodotto, che a loro volta sono raggruppate
 in reparti.
 
-I reparti sono 14:
-- 01 Edilizia
-- 02 Falegnameria
-- 03 
-- 04 
-- 05 Cucine
-- 06 Pavimenti e piastrelle
-- 07 Sanitari
-- 08 Idraulica
-- 09 Giardino
-- 10 
-- 11 
-- 12 Decorazione
-- 13
-- 14 Sistemazione
-
 Ogni cv appartiene ad uno o più reparti.
 Ogni cv gestisce la merce del reparto di appartenenza.
 Il negozio possiede un programma erp (enerprise resource planning) custom denominato Pixys,
@@ -105,22 +89,3 @@ Il pannello di controllo deve essere disponibile anche da smartphone, solo per g
 news: possibilità di mandare delle mail anzichè solo notifiche a smartphone. Quindi in ordine di priorità mail poi noti9fica. L'invio deve essere opzionale e decidibile da pannello di controllo.
 
 Da verificare se un file jar eseguibile (quindi senza installazione) si può usare, perchè ci possono essere problemi di sicurezza dal reparto IT oppure è meglio un interfaccia web?
-
-
-# 3 ANALISI DEL CONTESTO
-# 3.1 Situazione attuale
-# 3.2 Limiti della situazione attuale
-# 3.3 Obiettivi
-
-# 4 SPECIFICHE FUNZIONALI
-# 4.1 Modello delle interfacce funzionali con le applicazioni preesistenti
-# 4.2 Descrizione delle classi di utilizzatori
-# 4.3 Elenco e descrizione delle funzioni
-
-# 5 SPECIFICHE NON FUNZIONALI
-
-# 6 VINCOLI
-# 6.1 Vincoli tecnici
-# 6.2 Altri vincoli
-
-# 7 SCENARI/CASI D'USO
